@@ -1,0 +1,123 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav {
+    box-shadow: 1px 2px 6px rgba(39, 39, 39, 0.4);
+    padding: 10px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    height: 60px;
+}
+
+nav .text {
+    position: absolute;
+    top: 25px;
+    left: 110px;
+}
+
+nav span {
+    color: rgb(255, 142, 198);
+}
+
+nav a {
+    color: black;
+}
+
+.btn {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(255, 142, 198);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 1px 2px 6px rgba(39, 39, 39, 0.3);
+    cursor: pointer;
+
+}
+
+
+
+table {
+    margin: auto;
+    border: 2px solid rgba(160, 157, 157, .4);
+    border-radius: 10px;
+}
+
+table thead {
+    background-color: rgba(160, 157, 157, .4);
+    color: rgb(255, 255, 255);
+}
+
+.edit {
+    color: rgb(89, 179, 0);
+}
+
+.delete {
+    color: rgb(255, 142, 198);
+}
+
+.firs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 999;
+}
+.hide {
+    display: none;
+}
+
+.kotak{
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+    background: #d5f0f3;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px rgba(39, 39, 39, 0.4);
+
+}
+
+label{
+    font-size: 11pt;
+}
+
+.form{
+    /*membuat lebar form penuh*/
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 7px;
+
+}
+
+.tombol{
+    background-color: rgb(255, 142, 198);
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
